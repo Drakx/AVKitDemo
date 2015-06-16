@@ -18,6 +18,7 @@
 		2A5A3FCA1B2F7B35003198C2 /* BBB.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A3FC91B2F7B35003198C2 /* BBB.mp4 */; };
 		2A5A3FCF1B2F7CAE003198C2 /* KWMediaPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A3FCE1B2F7CAE003198C2 /* KWMediaPlayerViewController.m */; };
 		2A5A3FD31B2F8051003198C2 /* UIImage+ResizeImageToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A3FD21B2F8051003198C2 /* UIImage+ResizeImageToSize.m */; };
+		2A9649971B3035DB00503F33 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2A9649961B3035DB00503F33 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		2A5A3FCE1B2F7CAE003198C2 /* KWMediaPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KWMediaPlayerViewController.m; path = Controller/KWMediaPlayerViewController.m; sourceTree = "<group>"; };
 		2A5A3FD11B2F8051003198C2 /* UIImage+ResizeImageToSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ResizeImageToSize.h"; path = "Category/UIImage+ResizeImageToSize.h"; sourceTree = "<group>"; };
 		2A5A3FD21B2F8051003198C2 /* UIImage+ResizeImageToSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ResizeImageToSize.m"; path = "Category/UIImage+ResizeImageToSize.m"; sourceTree = "<group>"; };
+		2A9649961B3035DB00503F33 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		2A5A3F861B2F7A65003198C2 = {
 			isa = PBXGroup;
 			children = (
+				2A9649961B3035DB00503F33 /* README.md */,
 				2A5A3F911B2F7A65003198C2 /* AVKitDemo */,
 				2A5A3FAB1B2F7A65003198C2 /* AVKitDemoTests */,
 				2A5A3FB61B2F7A65003198C2 /* AVKitDemoUITests */,
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9649971B3035DB00503F33 /* README.md in Sources */,
 				2A5A3FC71B2F7AB8003198C2 /* KWTableViewController.m in Sources */,
 				2A5A3F971B2F7A65003198C2 /* AppDelegate.m in Sources */,
 				2A5A3FD31B2F8051003198C2 /* UIImage+ResizeImageToSize.m in Sources */,
@@ -546,6 +550,7 @@
 				2A5A3FBE1B2F7A65003198C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A5A3FBF1B2F7A65003198C2 /* Build configuration list for PBXNativeTarget "AVKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +559,7 @@
 				2A5A3FC11B2F7A65003198C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A5A3FC21B2F7A65003198C2 /* Build configuration list for PBXNativeTarget "AVKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +568,7 @@
 				2A5A3FC41B2F7A65003198C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
